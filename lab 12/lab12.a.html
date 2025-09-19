@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* 
+        shorthand form
+        name  , duration , timing-function ,  delay , iteration - count , direction   */
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color:red;
+            animation-name: cube;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            font-size: 16px;
+            animation-delay: 1s;
+            position: relative;
+            animation-timing-function: ease-in;
+            
+            
+        }
+
+        /* @keyframes changecolor{
+            from{
+                background-color :red;
+                color:black;
+                height: 500px;
+                width: 600px;
+                float: left;
+                text-align: left;
+                font-size: 16px;
+                
+                
+            }
+
+            to{
+                background-color: black;
+                color: antiquewhite;
+                 height: 600px;
+                width: 800px;
+                float: right;
+                text-align: right;
+                font-size: 30px;
+            } */
+
+        /* @keyframes movesquare{
+            0%{ top: 50px; left: 50px;}
+            25%{ top: 50px; left: 600px;}
+            50%{ top: 600px; left: 600px;}
+            75%{ top: 600px; left: 50px;}
+            100%{ top: 50px; left: 50px;}
+
+        } */
+
+
+        @keyframes cube{
+            0%{ top:50px ; left: 50px;}
+            50%{ top: 50px; left: 700px;}
+            100%{ top: 50px; left: 50px;}
+        }
+
+            
+        
+    </style>
+</head>
+<body>
+           <div class="box">
+                hello world
+           </div>
+</body>
+</html>

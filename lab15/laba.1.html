@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        a{
+           font-size: 23px;
+           color: black;
+           background-color: blue;
+           height: 60px;
+           width: 150px;
+        }
+
+        a:visited{
+            background-color: cadetblue;
+        }
+
+        .paregraph{
+            font-size: x-large;
+        }
+
+        .paregraph::first-line{
+            color: black;
+            background-color: aqua;
+        }
+
+        .paregraph::first-letter{
+            font-size: 29px;
+            font-weight: bold;
+        }
+
+        .paregraph::selection{
+            color: azure;
+            background-color: crimson;
+        }
+
+        .tap{
+            background-color: cyan;
+            color: black;
+            height: 60px;
+            width: 150px;
+            border-radius: 30px;
+            font-size: 23px;
+            font-family: 'Times New Roman', Times, serif;
+            transition: background 0.7s ease-in-out ;
+        }
+
+        .tap:hover{
+            background-color: blue;
+            color: beige;
+            border-radius: 25px;
+            height: 80px;
+            width: 180px;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+         <h2>my first pseudo page</h2>     
+        <a href="https://www.imdb.com/search/title/?keywords=anime">anime</a>
+
+        <p class="paregraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id tempore sequi, modi est facere,
+           hic laudantium delectus quaerat ab nisi fugiat eveniet, quia vitae.
+           Exercitationem ut aliquam veniam repudiandae eos.</p>
+
+
+        <button class="tap">click hear</button>   
+</body>
+</html>
