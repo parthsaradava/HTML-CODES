@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header
+        {
+            background-color: lightpink;
+            height: 200px;
+            border-bottom:  4px  solid green;
+            position: relative;
+   
+        }
+
+        .logo img
+        {
+            height: 100px;
+            width: 100px;
+            border-radius: 30%;
+            position: absolute;
+            top: 25px;
+            left: 20px;
+        }
+
+        .navbar
+        {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 20px;
+        }
+
+        .navbar a{
+            text-decoration: none;
+            margin: 15px;
+            color: black;
+        }
+
+        .header-content
+        {
+            position: absolute;
+            top: 150px;
+            left: 30px;
+
+        }
+
+        .header-content p
+        {
+                color: black;
+                font-size: 20px;
+        }
+
+        .windows-content{
+            border: 3px solid black;
+            height: 250px;
+            margin-top: 10px;
+        }
+
+
+
+        .windows-logo img{
+            height: 200px;
+            width: 300px;
+            margin-top: 30px;
+            margin-left: 10px;
+            float: left;
+        }
+
+        .windows-information{
+            float: right;
+            margin-top: 30px;
+        }
+
+        .windows-information p
+        {
+            font-size: 18px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             
+        }
+
+        button{
+            height: 50px;
+            width: 120px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: aqua;
+            border: 2px solid black;
+            border-radius: 25px;
+        }
+
+        .main-content
+        {
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+            top: 520px;
+            float: left;
+
+        }
+
+        .news-section
+        {
+                    float: right;
+                    margin-top: 90px;
+        }
+        
+        .news1 , .news2 , .news3
+        {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+       
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><img src="logo.jpg" alt="not found"></div>
+
+        <div class="navbar">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="header-content">
+            <p>this is my html and css page</p>
+        </div>
+    </div>
+
+    <div class="windows-content">
+        <div class="windows-logo">
+            <img src="windows.jpg" alt="not found">
+        </div>
+
+        <div class="windows-information">
+           <p> Microsoft Windows is a family of operating systems that manage a computer's hardware and software,<br>
+            providing a graphical user interface (GUI) for users to interact with their devices. Developed and <br>
+            marketed by Microsoft, it enables everyday tasks like web browsing and word processing and is the <br>
+            most popular operating system for personal computers. Key functions include managing memory, running <br>
+            applications, and facilitating networking, all while presenting a user-friendly interface. </p> 
+        
+
+            <div >
+                <button>Read more</button>
+            </div>
+
+        </div>
+
+
+    <div class="main-content">
+      <p>  What Windows Does </p>
+      <ul>
+        <li>Manages Resources: It handles the computer's memory, <br>
+            and other background tasks to ensure efficient </li>
+        <li>Provides a User Interface: Windows offers a GUI <br>
+            to open programs, navigate menus, and access </li>
+        <li>Runs Applications: It enables the execution <br>
+            from gaming and media playback to productivity <br>
+            tools like spreadsheets and word processors.</li>
+        <li>Facilitates Networking: Users can connect  <br>
+            through the operating system.</li>
+      </ul>
+      <p>Key Features</p>
+      <ul>
+        <li>Graphical User Interface (GUI): The primary way to<br>
+             making it easy to use for most people.</li>
+        <li>Productivity Tools: Bundled with applications  <br>
+             and spreadsheets for work and personal use.</li>
+        <li>Microsoft Copilot: An AI companion in Windows</li>
+        <li>Smart App Control: A security feature in  <br>
+            block unsafe applications.</li>
+      </ul>
+    </div>
+
+    <div class="news-section">
+        <div class="news1">
+            <img src="AI.jfif" alt="not found" style="width: 100px; height: 100px;"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
+               Temporibus voluptates voluptate quae, ipsa beatae impedit consequatur.</p>
+        </div>
+
+        <div class="news2">
+            <img src="AI.jfif" alt="not found"  style="width: 100px; height: 100px;"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
+               Temporibus voluptates voluptate quae, ipsa beatae impedit consequatur.</p>
+        </div>
+
+         <div class="news3">
+            <img src="AI.jfif" alt="not found" style="width: 100px; height: 100px;"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
+               Temporibus voluptates voluptate quae, ipsa beatae impedit consequatur.</p>
+        </div>
+
+    </div>    
+
+
+
+
+    
+    
+</body>
+</html>

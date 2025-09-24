@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input[type="text"]
+        {
+            border-color: red;
+            color: black;
+        }
+
+        input[type="text"]:focus{
+            border-color: blue;
+            color: white;
+            background-color: black;
+        }
+
+        input[type="text"]:valid{
+            border-color: green;
+            color: white;
+            background-color: black;
+        }
+
+        input[type="text"]:invalid{
+            border-color: red;
+            color: white;
+            background-color: black;
+        }
+
+        button
+        {
+            background-color: blue;
+            color: white;
+            font-size: 16px;
+            border-radius: 10px;
+            padding: 5px 15px;
+            
+        }
+        button:hover
+        {
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            border-radius: 10px;
+            padding: 5px 15px;
+            
+        }
+
+        button:active
+        {
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            border-radius: 10px;
+            padding: 5px 15px;
+            
+        }
+    </style>
+
+    
+</head>
+<body>
+    <form action="">
+        <label for="first name">name :</label>
+        <input type="text" name="first name" id="first name " placeholder="enter your name" required>
+        <br>
+        <label for="last name">surname :</label>
+        <input type="text" name="last name" id="last name" placeholder="enter your surname" required>
+        <br>
+        <label for="email">email :</label>
+        <input type="text" name="email" id="email" placeholder="enter your email" required>
+        <br>
+        <label for="phone">mobile no :</label>
+        <input type="text" name="phone" id="phone" placeholder="enter your mobile no" required>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+</html>
