@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Essentials</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: grid;
+      
+      background: white;
+      border-radius: 12px;
+      max-width: 1000px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .image-section {
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .image-section img {
+      width: 80%;
+      border-radius: 12px;
+    }
+
+    .details-section {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .back-link {
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 15px;
+      text-decoration: none;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .rating {
+      color: #f39c12;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .options {
+      margin-top: 10px;
+    }
+
+    .options h4 {
+      font-size: 14px;
+      margin: 10px 0 5px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn {
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .btn:hover {
+      background: #f0f0f0;
+    }
+
+    .btn.selected {
+      border-color: #000;
+      font-weight: bold;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 20px;
+      margin: 15px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .tabs span {
+      cursor: pointer;
+      padding-bottom: 5px;
+    }
+
+    .tabs span.active {
+      border-bottom: 2px solid #000;
+      font-weight: bold;
+    }
+
+    .price-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+    }
+
+    .price {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .add-to-cart {
+      background: #1a73e8;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .add-to-cart:hover {
+      background: #155cc0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="image-section">
+      <img src="collage asential.png" alt="College Essentials">
+    </div>
+
+    
+    <div class="details-section">
+      <a href="#" class="back-link">&larr; Back to bedroom</a>
+      
+      <div>
+        <h2 class="title">College Essentials</h2>
+        <p class="rating">⭐ 4.4 (228 reviews)</p>
+
+        <div class="options">
+          <h4>Select Quality</h4>
+          <div class="btn-group">
+            <button class="btn selected">Basic</button>
+            <button class="btn">Premium</button>
+          </div>
+
+          <h4>Style</h4>
+          <div class="btn-group">
+            <button class="btn selected">Minimal</button>
+            <button class="btn">Bohemian</button>
+            <button class="btn">Floral</button>
+            <button class="btn">Other</button>
+          </div>
+
+          <h4>Color</h4>
+          <div class="btn-group">
+            <button class="btn selected">Pink</button>
+            <button class="btn">Blue</button>
+            <button class="btn">White</button>
+          </div>
+
+          <h4>Size</h4>
+          <div class="btn-group">
+            <button class="btn selected">Twin XL</button>
+            <button class="btn">Full</button>
+          </div>
+        </div>
+
+        <div class="tabs">
+          <span class="active">What's Inside</span>
+          <span>Reviews</span>
+          <span>FAQs</span>
+        </div>
+      </div>
+
+      <div class="price-section">
+        <span class="price">$195</span>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
